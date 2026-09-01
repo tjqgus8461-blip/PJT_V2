@@ -1,0 +1,15 @@
+streamlit>=1.61
+pandas>=2.2
+plotly>=5.24
+requests>=2.32
+beautifulsoup4>=4.12
+openpyxl>=3.1
+feedparser>=6.0
+python-dotenv>=1.0
+
+# LLM: OPENAI_API_KEY 사용 시 필요
+openai>=1.50
+
+# LLM 대안: ANTHROPIC_API_KEY를 쓰려면 아래 주석을 해제하세요.
+# ai.py가 설치 여부를 자동 감지하므로 없어도 앱은 정상 동작합니다.
+# anthropic>=0.40
